@@ -23,7 +23,7 @@ Before diving into the technical stuff, let’s check if our model actually work
         * Increased max sequence length from 100 to 640 because Thai sentences can be really long!
         * Lastly, printed out almost everything for debugging!
 
-## Result
+## Results
 
 | Attentions | Training Loss | Training PPL | Training Time | Validation Loss | Validation PPL | Validation Time |
 | ---------- | ------------: | -----------: | ------------: | --------------: | -------------: | --------------: |
@@ -36,7 +36,7 @@ Before diving into the technical stuff, let’s check if our model actually work
 * Multiplicative Attention struggled—its loss is way too high!
 * Additive Attention took forever to train but performed well. Some batches were even skipped because they took so long.
 
-**And the plot tells us that:**
+**Some insights from the plot:**
 * Loss went down—good sign!
 * Multiplicative Attention had the worst loss, so it might not be a good choice.
 * Validation loss stayed stable, meaning our model isn’t completely overfitting.
@@ -49,7 +49,7 @@ These charts show what words the model focused on while translating. Hopefully, 
 
 ![](images/attention_maps_20250202002832_seed1527_nb6261_bs16.svg)
 
-**Interpreting the above example:**
+**Interpretation:**
 
 * General Attention: Spreads focus across different words. Captures meaning well (not in this example).
 * Multiplicative Attention: Focuses on just a few words. Might miss some context.
