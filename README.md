@@ -28,8 +28,8 @@ Before diving into the technical stuff, let’s check if our model actually work
 | Attentions | Training Loss | Training PPL | Training Time | Validation Loss | Validation PPL | Validation Time |
 | ---------- | ------------: | -----------: | ------------: | --------------: | -------------: | --------------: |
 |General Attention|4.757|116.448|59m 35s|4.045|57.133|2m 23s|
-|Multiplicative Attention|6.038|418.892|60m 35s|5.950|383.613|2m 25s|
-|Additive Attention|4.491|89.191|420m 41s|4.020|55.704|13m 49s|
+|Multiplicative Attention|6.038|418.892|1h 35s|5.950|383.613|2m 25s|
+|Additive Attention|4.491|89.191|7h 41s|4.020|55.704|13m 49s|
 
 **It means:**
 * General and Additive Attention worked best.
