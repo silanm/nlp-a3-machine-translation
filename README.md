@@ -1,3 +1,6 @@
+# This project...
+This project explores different attention mechanisms in a Machine Translation model for translating English to Thai. By comparing General, Multiplicative, and Additive Attention, we can determine which approach balances accuracy and efficiency best.
+
 # Demo
 
 Before diving into the technical stuff, let’s check if our model actually works! (Fingers crossed 🤞)
